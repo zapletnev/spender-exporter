@@ -15,6 +15,7 @@ if len(sys.argv) < 4 or len(sys.argv) > 5:
 login = sys.argv[1]
 password = sys.argv[2]
 
+# Auth
 print('https://spender.me/aut/check')
 process = subprocess.Popen("curl --silent --output /dev/null --cookie-jar - 'https://spender.me/aut/check' " + 
                         "-H 'Content-Type: application/x-www-form-urlencoded; charset=UTF-8' " + 
@@ -71,5 +72,5 @@ while current_date <= end_date:
     else:
         current_date = current_date.replace(month=current_date.month+1)
 
-with open('data.txt', 'w') as outfile:
+with open('data.json', 'w') as outfile:
     json.dump(months, outfile)
