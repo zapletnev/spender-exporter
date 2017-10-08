@@ -1,7 +1,5 @@
 # Spender.me Exporter
-[Spender.me](https://spender.me/) is fantastic finance manager. But unfortunately the export data feature is not available for the moment. 
-
-But what if spender.me will break or even shut down? Do you want to have a backup of your data in this case?spender.py allows you to export all your data in json format. Store and keep it safe.
+[Spender.me](https://spender.me/) is fantastic finance manager. But unfortunately the export data feature is not available for the moment. Do you want to have a backup of your data in emergency case? [spender.py](https://github.com/zapletnev/spender-exporter/blob/master/spender.py) allows you to export all your data in json format. Store and keep it safe.
 
 # Usage
 
